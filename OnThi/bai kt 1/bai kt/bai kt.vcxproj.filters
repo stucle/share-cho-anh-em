@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\nhom 2">
+      <UniqueIdentifier>{9443d552-73e8-4bee-b4ec-e36d2ac13909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nhom 3">
+      <UniqueIdentifier>{00b655c2-9d5a-4d42-a60a-ad60a30c818b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\nhom 2">
+      <UniqueIdentifier>{916a12eb-470e-4697-a8a7-4d2b085e22df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\nhom 3">
+      <UniqueIdentifier>{bc6a7c22-c0d6-4a3d-84e6-3dfa0774f6ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="giai dau.cpp">
+      <Filter>Resource Files\nhom 2</Filter>
+    </ClCompile>
+    <ClCompile Include="doi bong.cpp">
+      <Filter>Resource Files\nhom 2</Filter>
+    </ClCompile>
+    <ClCompile Include="cau thu.cpp">
+      <Filter>Resource Files\nhom 3</Filter>
+    </ClCompile>
+    <ClCompile Include="doi_bong+.cpp">
+      <Filter>Resource Files\nhom 3</Filter>
+    </ClCompile>
+    <ClCompile Include="num2string\num_package.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bkt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="doi bong.h">
+      <Filter>Header Files\nhom 2</Filter>
+    </ClInclude>
+    <ClInclude Include="giai dau.h">
+      <Filter>Header Files\nhom 2</Filter>
+    </ClInclude>
+    <ClInclude Include="cau thu.h">
+      <Filter>Header Files\nhom 3</Filter>
+    </ClInclude>
+    <ClInclude Include="doi_bong+.h">
+      <Filter>Header Files\nhom 3</Filter>
+    </ClInclude>
+    <ClInclude Include="num2string\package.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bkt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
